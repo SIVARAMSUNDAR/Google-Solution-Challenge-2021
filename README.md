@@ -21,12 +21,15 @@ int main()
 		{
 			p++;
 			i++;
+			
 		}
 		else if(a[i]>b[j])
 		{
 			p--;
 			j++;
+			
       count=count+1;
+      cout<<"POSITIVE"
 		}
 		if(p>r)
 			r=p;
